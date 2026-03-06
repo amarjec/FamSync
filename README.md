@@ -5,7 +5,7 @@ FamSync is a family task management app with admin approval workflow, JWT auth, 
 ## Structure
 
 - `backend/`: Node.js + Express + Mongoose API
-- `frontend/`: React Native application
+- `frontend/`: React Native app (Expo managed workflow)
 
 ## Backend Setup
 
@@ -22,12 +22,14 @@ Server default: `http://localhost:5000`
 - Family: `/api/family`
 - Tasks: `/api/tasks`
 
-## Frontend Setup
+## Frontend Setup (Expo)
 
 1. `cd frontend`
 2. `npm install`
-3. Update `src/api/client.js` base URL if needed
-4. `npm run android` or `npm run ios`
+3. `npx expo install --fix`
+4. Update `src/api/client.js` base URL if needed
+5. `npm run start`
+6. Run on device/simulator with `npm run android` or `npm run ios`
 
 ## Cron Jobs
 

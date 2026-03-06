@@ -1,4 +1,19 @@
 {
-  "name": "FamSync",
-  "displayName": "FamSync"
+  "expo": {
+    "name": "FamSync",
+    "slug": "famsync",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": []
+  }
 }
