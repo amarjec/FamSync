@@ -1,0 +1,9 @@
+node_modules
+.env
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+android/.gradle
+android/app/build
+ios/Pods
+ios/build
